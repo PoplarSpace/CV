@@ -118,6 +118,7 @@ export const Header: React.FC<Props> = (props: Props) => {
             autoCropArea={1}
             checkOrientation={false} // https://github.com/fengyuanchen/cropperjs/issues/671
             guides={true}
+            // aspectRatio={1}
             aspectRatio={356 / 441}
           />
         </div>

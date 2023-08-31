@@ -1,0 +1,99 @@
+.header {
+  height: 242px;
+  width: 100%;
+  background: #4682b4;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+}
+.header .pic {
+  cursor: pointer;
+}
+.header .pic img {
+  width: auto;
+  height: 100%;
+  background-size: contain;
+}
+.header .tit {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+}
+.header .tit-top {
+  overflow: hidden;
+  padding-bottom: 6px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+.header .tit-top h1 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.35em;
+  float: left;
+}
+.header .tit-top .nick {
+  height: 40px;
+  font-size: 20px;
+  line-height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.header .tit-top .nick .tit-top-space {
+  width: 3px;
+  background-color: rgba(0, 0, 0, 0.15);
+  height: 90%;
+  margin-left: 10px;
+}
+.header .tit-top .nick img {
+  filter: invert(1);
+  color: rgba(255, 255, 255, 0.87);
+  margin-left: 10px;
+}
+.header .tit-top .nick .tit-top-github {
+  font-size: 24px;
+  opacity: 0.98;
+  font-weight: 500;
+  margin-left: 5px;
+  color: rgba(255, 255, 255, 0.87);
+}
+.header .tit-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.header .tit-button .tb-left {
+  float: left;
+}
+.header .tit-button .tb-left .tbl-item {
+  font-weight: 500;
+  font-size: 18px;
+  opacity: 0.9;
+  line-height: 2.05em;
+}
+.header .tit-button .tb-right {
+  float: left;
+}
+.header .tit-button .tb-right .tbr-item {
+  white-space: nowrap;
+  font-weight: 500;
+  font-size: 17.5px;
+  line-height: 2.1em;
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header .tit-button .tb-right .tbr-item img {
+  margin-left: 5px;
+  width: 16px;
+  height: 16px;
+  filter: invert(1);
+}
